@@ -18,3 +18,9 @@ var arr1 = [1,2,3];
 var arr2 = [4,5,6];
 arr1=[...arr1,...arr2];
 console.log(arr1);
+
+let car = {
+    color : "Red",
+    speed : "165",
+}
+console.log(car);
