@@ -24,3 +24,8 @@ let car = {
     speed : "165",
 }
 console.log(car);
+
+let moto={...car};
+moto.color="green";
+moto.speed="200";
+console.log(moto);
